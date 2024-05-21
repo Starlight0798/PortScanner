@@ -89,3 +89,20 @@ To run the scanner, you will need to have root privileges. Use the following com
 To run a TCP Connect Scan on the IP address `192.168.1.1` for ports 1 to 100:
 ```bash
 sudo ./bin/Scanner -c 192.168.1.1 1 100
+```
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+## Acknowledgements
+
+This project was developed as part of a network security course. Special thanks to all the contributors and supporters.
+
+## Contact
+
+For any questions or suggestions, please open an issue on GitHub or contact me
