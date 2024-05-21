@@ -27,10 +27,10 @@ PortScanner/
 │ ├── TCPSYNScan.cpp
 │ ├── TCPFINScan.cpp
 │ ├── UDPScan.cpp
-│ ├── Scaner.cpp
+│ ├── Scanner.cpp
 │ └── utils.cpp
 ├── bin/
-│ └── Scaner
+│ └── Scanner
 ├── obj/
 │ └── *.o
 └── Makefile
@@ -61,31 +61,31 @@ To run the scanner, you will need to have root privileges. Use the following com
 
 - **Ping Scan**:
     ```bash
-    sudo ./bin/Scaner -p <target_ip>
+    sudo ./bin/Scanner -p <target_ip>
     ```
 
 - **TCP Connect Scan**:
     ```bash
-    sudo ./bin/Scaner -c <target_ip> <start_port> <end_port>
+    sudo ./bin/Scanner -c <target_ip> <start_port> <end_port>
     ```
 
 - **TCP SYN Scan**:
     ```bash
-    sudo ./bin/Scaner -s <target_ip> <start_port> <end_port>
+    sudo ./bin/Scanner -s <target_ip> <start_port> <end_port>
     ```
 
 - **TCP FIN Scan**:
     ```bash
-    sudo ./bin/Scaner -f <target_ip> <start_port> <end_port>
+    sudo ./bin/Scanner -f <target_ip> <start_port> <end_port>
     ```
 
 - **UDP Scan**:
     ```bash
-    sudo ./bin/Scaner -u <target_ip> <start_port> <end_port>
+    sudo ./bin/Scanner -u <target_ip> <start_port> <end_port>
     ```
 
 ## Example
 
 To run a TCP Connect Scan on the IP address `192.168.1.1` for ports 1 to 100:
 ```bash
-sudo ./bin/Scaner -c 192.168.1.1 1 100
+sudo ./bin/Scanner -c 192.168.1.1 1 100

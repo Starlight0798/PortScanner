@@ -11,10 +11,10 @@ BIN_DIR = bin
 SRC_DIR = src
 
 # 目标文件
-TARGET = $(BIN_DIR)/Scaner
+TARGET = $(BIN_DIR)/Scanner
 
 # 源文件
-SRCS = $(SRC_DIR)/Scaner.cpp \
+SRCS = $(SRC_DIR)/Scanner.cpp \
        $(SRC_DIR)/Ping.cpp \
        $(SRC_DIR)/TCPConnectScan.cpp \
        $(SRC_DIR)/TCPSYNScan.cpp \
